@@ -54,7 +54,7 @@ function createCubes(scene) {
         for (var j = 0; j < 3; j++) {
             for (var k = 0; k < 3; k++) {
                 var mat = new BABYLON.StandardMaterial("mat", scene);
-                var texture = new BABYLON.Texture("/textures/atlas.jpg", scene);
+                var texture = new BABYLON.Texture("textures/atlas.jpg", scene);
                 mat.diffuseTexture = texture;
                 mat.specularTexture = texture;
 
